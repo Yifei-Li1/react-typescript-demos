@@ -4,6 +4,7 @@ import Navigation from './Navigation'
 import Calculator from './calculator/Calculator'
 import Home from './Home'
 import Calendar from './calendar/Calendar'
+import Template from './template/Template'
 
 const Layout = () => {
   return (
@@ -17,6 +18,7 @@ const Layout = () => {
             <Route path='/autofile'></Route>
             <Route path='/redux'></Route>
             <Route path='/calculator' element={<Calculator />}></Route>
+            <Route path='/template' element={<Template />}></Route>
             <Route path='/tablegraph'></Route>
         </Routes>
     </>

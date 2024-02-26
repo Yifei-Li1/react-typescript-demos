@@ -11,6 +11,7 @@ const Navigation = () => {
         <NavLink to='autofile'>autofile</NavLink>
         <NavLink to="./calculator">calculator</NavLink>
         <NavLink to='tableGraph'>table to graph</NavLink>
+        <NavLink to='./template'>component templates</NavLink>
     </div>
   )
 }

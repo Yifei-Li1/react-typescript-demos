@@ -1,0 +1,31 @@
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .gradient-button {
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      color: #fff;
+      background-size: 200% 200%;
+      /* background-image: linear-gradient(to right, #ff7e5f, #feb47b, #ff7e5f); */
+      background-image: linear-gradient(to right,#fff000,#000fff 100%);
+      cursor: pointer;
+      font-size: 1em;
+      border-radius: 5px;
+      
+  }
+  
+  .gradient-button:hover {
+    animation: gradientAnimation 3s ease infinite;
+    transition: all 0.4s ease;
+  }
+  
