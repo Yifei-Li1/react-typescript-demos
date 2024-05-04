@@ -5,6 +5,7 @@ const Template = () => {
   return (
     <div>Template
         <Gradient_button />
+        <div className='linear-gradient'>linear-gradient background</div>
 
     </div>
   )
