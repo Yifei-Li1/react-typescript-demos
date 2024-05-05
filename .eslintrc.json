@@ -11,6 +11,7 @@
   },
   "rules": {
     "no-unused-vars": "warn", // Change errors to warnings for unused variables
-    "semi": ["error", "always"]
+    "semi": "off",
+    "no-undef":"off"
   }
 }
